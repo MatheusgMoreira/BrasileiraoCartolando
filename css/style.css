@@ -1,0 +1,83 @@
+/*----- GERAL -----*/
+
+html, body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+body {
+    background: url(../media/imageBackground.png),linear-gradient(50deg, #030216, #04031c);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mainTittle a{
+    font-weight: bolder;
+    color: #B89400;
+}
+
+.mainContainer {
+    background-color: white;
+}
+
+.hrDivisor {
+    margin: 0 auto;
+    color: #04031c;
+}
+
+.fontColor a{
+    color: #04031c;
+}
+
+.backgroundMain {
+    background-color: #04031c;
+}
+
+.menuLink:hover {
+    background-color: #04031c;
+    color: white;
+    border-radius: 5px;
+    transform-style: preserve-3d;
+	transform: scale(1.02);
+	transition: all ease 0.3s;
+	transition: all ease 0.5s;
+}
+
+#menu a:hover {
+    color: white;
+}
+ 
+/*----- FIM GERAL -----*/
+
+/*----- LIGAS -----*/
+
+.regList {
+    list-style: circle;
+}
+
+.liga a {
+    color: green;
+}
+
+/*----- FIM LIGAS -----*/
+
+/*----- CAMPEÕES -----*/
+
+.videos {
+    height: 600px;
+}
+
+/*----- FIM CAMPEÕES -----*/
+
+
